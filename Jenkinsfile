@@ -7,7 +7,7 @@ pipeline {
       }
       steps {
         sh 'java --version'
-        sh hello-world.java
+        sh 'hello-world.java'
       }
     }
     stage('Front-end') {
